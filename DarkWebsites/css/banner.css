@@ -1,0 +1,53 @@
+									.blockbkg_ads {
+									  background-color: black;
+									  opacity: 60%;
+									  filter:alpha(opacity=60);
+									  background-color: rgba(0,0,0,0.60);
+									  width: 100%;
+									  min-height: 100%;
+									  overflow: hidden;
+									  float: absolute;
+									  position: fixed;
+									  top: 0;
+									  left: 0;
+									  color: #000000;
+									  z-index: 1000001;
+									}
+									.cont_ads {
+										background-color: white;
+										border-radius: 10px;
+										border: 1px solid #020202;
+										padding: 20px;
+										position: relative;
+										overflow-y: visible;
+										-webkit-box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.3);
+										margin: 100px auto;
+									}
+									.closebtn_ads {
+									  width: 16px;
+									  height: 16px;
+									  float: right;
+									  top: 0;
+									  background-image: url(../images/x.png);
+									  background-repeat: no-repeat;
+									  background-position:center;
+									  display: block;
+									}
+									.closebtn_ads:hover {
+									  cursor: pointer;
+									}
+									.normal_ads {
+									  background-color: lightblue;
+									  width: 300px;
+									  min-height: 200px;
+									  padding: 20px;
+									 
+									}
+									#przycisk_ads {
+									  margin-left: 20px;
+									  margin-top: -75px;
+									 }
+									 #info_promotion_ads{
+										margin-top: 20px;
+										margin-left: 40px;
+									}
